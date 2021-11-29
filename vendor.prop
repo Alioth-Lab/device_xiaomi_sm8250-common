@@ -141,7 +141,6 @@ ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
 ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 ro.surface_flinger.max_virtual_display_dimension=4096
 ro.surface_flinger.protected_contents=true
-ro.surface_flinger.support_kernel_idle_timer=true
 ro.vendor.display.sensortype=2
 vendor.display.comp_mask=0
 vendor.display.disable_excl_rect=0
@@ -156,6 +155,8 @@ vendor.display.qdcm.disable_factory_mode=1
 vendor.display.qdcm.mode_combine=1
 vendor.display.use_layer_ext=0
 vendor.display.use_smooth_motion=0
+vendor.display.disable_idle_time_hdr=1
+vendor.display.disable_idle_time_video=1
 
 # DRM
 drm.service.enabled=true
