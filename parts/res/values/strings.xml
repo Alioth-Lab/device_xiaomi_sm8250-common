@@ -19,4 +19,7 @@
     <!-- FPS Counter -->
     <string name="fps_info_title">FPS Counter</string>
 
+    <!-- Refresh Rate tile -->
+    <string name="refresh_rate_tile_title">Refresh Rate</string>
+
 </resources>
