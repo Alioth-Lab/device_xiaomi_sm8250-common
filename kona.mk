@@ -425,6 +425,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libqti-perfd-client
 
+# Prebuilt recovery
+$(call inherit-product, device/xiaomi/prebuilt-recovery/prebuilt.mk)
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service.xiaomi-libperfmgr
